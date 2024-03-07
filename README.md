@@ -64,18 +64,9 @@ bash startup.sh
 ```
 This command will start your jupyter server. Be aware of the link that it will print out. This is what you'll use to run the notebook.
 ![jupyter llink](jupyter_link.png)
-3. Copy the link in your browser of choice
 
-
-2. **Python Script**:
-   - Write a Python script to pull data from the API.
-   - Focus on extracting relevant details for authors and books.
-   - You may mock the insertion into a database due to time constraints.
-
-3. **Sample Data Output**:
-   - Provide CSV outputs for 'Authors' and 'Books'.
-   - Include a simple 'Authors and Books' relation (no need for a full bridge table).
+3. Copy the link to your browser of choice
 
 4. Run commands:
-   Once you're on the jupyter server, you can run notebook `library_data.ipynb`!
+   Once you're on the jupyter server, you can run the notebook `library_data.ipynb`!
    ![notebook preview](notebook_preview.png)
