@@ -1,0 +1,21 @@
+{
+    // "image": "deltaio/delta-docker:latest_arm64",
+    "build": {
+        "dockerfile": "Dockerfile_delta_quickstart"
+    },
+    "mounts": [
+        "source=${localEnv:HOME}/Documents/dev,target=/opt/spark/work-dir,type=bind,consistency=cached"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "ms-python.pylint",
+                "mohsen1.prettify-json"
+            ]
+        }
+    }
+}
