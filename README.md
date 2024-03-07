@@ -36,7 +36,7 @@ This pipeline will be generalized for production use at a later date as the comp
    ```
 
 
-Setup
+2. Setup
 ---
 You'll need to have [Docker](https://www.docker.com/products/docker-desktop/) as well as [VIsual Studio Code](https://code.visualstudio.com/download) installed to properly run this environment locally.
 
@@ -51,12 +51,14 @@ Once you've downloaded the required software and cloned the repo, you're ready t
    Congrats!! You're in the container!
 
 
-Executing Process
+3. Executing Process
 ---
 1. The first script you'll need to run is `extract_library_data.py`. This will:
    1. Extract data from API
    2. Create new file name
    3. Store data in a file
+
+   To run the extract, open `extract_library_data.py` then press `F5` on your keyboard
 
 2. Once that's complete, you'll need to launch startup.sh in the terminal by running
 ```
