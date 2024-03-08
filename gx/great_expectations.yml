@@ -59,6 +59,13 @@ fluent_datasources:
   library_api__silver:
     type: spark_filesystem
     assets:
+      authors_silver_asset:
+        type: directory_delta
+        data_directory: authors/data/delta
+    base_directory: silver
+  library_api__books__silver:
+    type: spark_filesystem
+    assets:
       books_silver_asset:
         type: directory_delta
         data_directory: books/data/delta
