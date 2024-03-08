@@ -5,7 +5,6 @@ from typing import Union
 import datetime
 import json
 import os
-import structlog
 
 # extract data from library API
 # focus on a single subject
